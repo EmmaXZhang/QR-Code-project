@@ -4,3 +4,6 @@
 3. Create a txt file to save the user input using the native fs node module.
 */
 
+const fs=require("fs");
+
+fs.writeFile("message.txt","Hello from node",)
